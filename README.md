@@ -31,24 +31,21 @@ Identify and explain potential errors or issues encountered during the SSH sessi
 Provide context-aware assistance, adapting to the user's current actions and goals.
 ####  User-Friendly Interface:
 Design an intuitive interface that combines the terminal emulator and chatbot seamlessly.
-Allow users to easily switch between terminal interaction and chatbot assistance.
-Provide clear visual cues and feedback for actions and responses.
-Offer customization options for terminal appearance and chatbot behavior.
-Additional Considerations:
+#### Security 
+- Strictly enforce HTTPS for all communication to protect user data.
 
-####  Security:
-Strictly enforce HTTPS for all communication to protect user data.
-Implement proper authentication and authorization mechanisms on both the client and server.
-Securely store and manage user credentials (if using password authentication).
-####  Scalability:
-Design the architecture to handle multiple concurrent users and connections effectively.
-Consider using load balancers and distributed systems if necessary.
-####  Offline Functionality:
-Explore ways to provide limited functionality or store commands for execution when online.
-Consider caching recent terminal output for quick reference even when offline.
-####  Accessibility:
-Ensure the interface is usable by people with disabilities, adhering to WCAG guidelines.
-Provide alternative input methods (e.g., voice commands) for users with limited motor skills.
+
+## Future Plan
+- Allow users to switch between terminal interaction and chatbot assistance easily.
+- Provide clear visual cues and feedback for actions and responses.
+- Offer customization options for terminal appearance and chatbot behavior.
+- Implement proper authentication and authorization mechanisms on both the client and server.
+- Securely store and manage user credentials (if using password authentication).
+- Design the architecture to handle multiple concurrent users and connections effectively.
+- Consider using load balancers and distributed systems if necessary.
+- Explore ways to provide limited functionality or store commands for execution when online.
+- Consider caching recent terminal output for quick reference even when offline.
+
 
 # Build Details
 
