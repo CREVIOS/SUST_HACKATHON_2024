@@ -64,7 +64,12 @@ Design an intuitive interface that combines the terminal emulator and chatbot se
 
 #### Vue js
 
-- cd Frontend/
+- cd Frontend/vue-project
+- `npm install`
+- Compile and Hot-Reload for Development `npm run dev`
+
+  #### Backend
+
 
 
 ## Config File Options
