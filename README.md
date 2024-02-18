@@ -70,6 +70,9 @@ Design an intuitive interface that combines the terminal emulator and chatbot se
 
   #### Backend
 
+- cd Frontend/backedn
+- `npm install`
+- Compile and Hot-Reload for Development `node start`
 
 
 ## Config File Options
