@@ -1,6 +1,11 @@
 # SUST_HACKATHON_2024
  ### Not_An_AI built using ssh2, socket.io, xterm.js, express and Vue js
 
+### Contributors of this:
+* Md.Sadek Hossain Asif (Backend)
+* Tasnim kabir Sadik (Backend)
+* Abrar Fahyaz (Frotend)
+  
 A bare bones example of an HTML5 web-based terminal emulator and SSH client. We use SSH2 as a client on a host to proxy a Websocket / Socket.io connection to a SSH2 server. Then we build a chatbot with vue js and connect it with the openai api so that all the input and output go directly to the chatbot and explain about them if there is any potential error or others.
 
 #### HTML5 Web-Based Terminal Emulator and SSH Client:
